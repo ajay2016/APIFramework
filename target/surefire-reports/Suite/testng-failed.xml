@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="extentreports.TestListeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="DeleteCustomerTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.automation.APIautomationFramework.testcases.Stripe.DeleteCustomerTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="DeleteCustomer" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.APIautomationFramework.testcases.Stripe.DeleteCustomerTest -->
+    </classes>
+  </test> <!-- DeleteCustomerTest(failed) -->
+  <test thread-count="5" verbose="0" name="CreateCustomerTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.automation.APIautomationFramework.testcases.Stripe.CreateCustomerTest">
+        <methods>
+          <include name="CreateCustomerAPIValid" invocation-numbers="0 1 2"/>
+          <include name="CreateCustomerAPIInvalid" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.APIautomationFramework.testcases.Stripe.CreateCustomerTest -->
+    </classes>
+  </test> <!-- CreateCustomerTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

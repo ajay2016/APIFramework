@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 2, Time elapsed: 4.782 s <<< FAILURE! - in TestSuite
+DeleteCustomer(com.automation.APIautomationFramework.testcases.Stripe.DeleteCustomerTest)  Time elapsed: 1.422 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [404]
+	at com.automation.APIautomationFramework.testcases.Stripe.DeleteCustomerTest.DeleteCustomer(DeleteCustomerTest.java:51)
+
+CreateCustomerAPIValid(com.automation.APIautomationFramework.testcases.Stripe.CreateCustomerTest)  Time elapsed: 1.436 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.automation.APIautomationFramework.testcases.Stripe.CreateCustomerTest.CreateCustomerAPIValid(CreateCustomerTest.java:61)
+
+CreateCustomerAPIValid(com.automation.APIautomationFramework.testcases.Stripe.CreateCustomerTest)  Time elapsed: 1.436 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.automation.APIautomationFramework.testcases.Stripe.CreateCustomerTest.CreateCustomerAPIValid(CreateCustomerTest.java:61)
+
